@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scaled=1.0">
+    <title>links and images</title>
+  </head>
+  <body>
+    <!-- anchor elements <a> let us link to other websites. this wont work on its own -->
+      <div>
+        <a>click me - FOR NOTHING</a>
+      </div>
+    <!-- hyperlink href="whereAmIGoing" reference will let us link -->
+      <div>
+        <a href="https://www.google.com/">take me to Google computer machine</a>
+      </div>
+    <!-- mainly 2 types of links. links to other pages on websites, and pages on our own website -->
+    <!-- absolute links - links to pages on other websites -->
+      <div>
+        <a href="https://www.theodinproject.com/about">Where can i learn about the odin project?</a>
+      </div>
+      <!-- Relative links - links to other pages on our own website. it assumes the domain is the same as its current page, or relative to. this will open the about page in the same location/domain-->
+      <div>
+        <a href="about.html">same site, quick link</a>
+      </div>
+      <!-- this is how you link properly. each page should be contained in organized directory -->
+      <div>
+        <a href="./pages/about2.html">proper way - different directory</a>
+      </div>
+      <!-- this is an image element. its self closing -->
+      <div>
+        <img src="https://www.theodinproject.com/mstile-310x310.png">
+      </div> 
+      <!-- src or source is the target for the image -->
+      <!-- images can also be relative or absolute, the above was absolute -->
+      <!-- this is relative -->
+      <div>
+        <img style="width: 300px;" src="./assets/Dog.jpg">
+      </div>
+      <!-- linking to a parent directorie - how do? -->
+      <div>
+        <img style="width: 300px" src="../random-assets/charles.jpg">
+        <!-- see the ../ that goes one level back, a ./ is for the current directory! -->
+      </div>
+      <!-- alt attribute is used to describe an image. its what you see when the page cant load the image, and screen readers when people cant see! -->
+        <img style="width: 300px;" src="./assets/Dog.jpg" alt="a dog, who is named charlie looking adorable on a yellow background">
+
+
+
+
+    <div style="height: 300px; width: 100%;"></div>
+
+    <h1>Homepage</h1>
+
+    
+
+
+  </body>
+</html>
