@@ -1,0 +1,103 @@
+Fundamentals part 1
+1. how do you declare a variable/what is it?
+with let, const, and var. this is declared in the <script> or javaScript file
+its a storage container for data, like a box with a label 
+
+2. What are three different ways to declare a variable?
+let nameOfVariable = "";
+const nameOfVariable = "";
+var name of variable = "";
+
+3. which one should you use when?
+let = in general when a value may change
+const = value can never change, but this is the standard you should shoot for.
+var = old style. in general dont do this
+
+4. What are the rules for naming variables?
+can only contain....
+letters, digits, $, - and _ (not commas)
+in addition the first value can not be a number
+
+5. What are operators, operands, and operations?
+these are used for math calculations 
+operators - are the type of math. + add - subtract * multiply / divide ** exponentiation % remainder ++ increment -- decrement
+operands - are the values to be used in the math equation 
+operations - the act of using an operand on a operator
+
+6. what is concatenation, and what happens when you add a sting and a number?
+concatenation is combining numbers or a number and a string.
+5 + 5 = 10
+5 + "five" = 5five
+the second example is the number 5 and the string five. it would just add them together
+
+7. what are the different types of operators? 
++ add - subtract * multiply / divide ** exponentiation % remainder ++ increment -- decrement
+
+8. what is the difference between == and ===
+== loose equality - compares regardless of type
+=== strict equality comparison, compares the type of value not the value
+
+9. what are operator precedence values?
+order math is calculated in a equation
+()
+++ --
+exponents**
+* / %
++ -
+
+10.what are the increment/decrement operators?
+increase and decrease a value by one
+
+11. what is the difference between prefixing and postfixing them?
+prefixing - does addition/subtraction first and then returns the value ++let
+postfixing - does addition/subtraction after returning the value let++
+
+12. what are assignment operators?
+used to assign values to variables... its a = sign
+
+13. what is the unary plus operator?
+it changes a value from a string into a number. and example would be
+const fakeNumber = "10";
+const realNumber = +fakeNumber;
+this would convert fakeNumber into a digit and save it into realNumber
+
+Fundamentals part 2
+1. Name the eight data types in JavaScript.
+string, number, bigInt, boolean, null, undefined, symbol, object
+
+2. Understand the difference between single, double, and backtick quotes.
+'single' and "double" are basically the same
+a `backtick` is a template lateral, it allows you to embed expressions
+
+3. Embed a variable/expression in a string.
+this is achieved with backticks, an example would be
+let variable = "expression"
+stringEmbed = `this is a example of one ${variable}`;
+
+4. Understand what a method is.
+a method is what is a function that is associated with an object.
+
+5. Name the three logical operators.
+||  or  && and  ! not
+
+6. Understand what the comparison operators are.
+comparison operators are used to compare 2 values and return a Boolean (true/false)
+== equal to
+!= not equal to
+=== strictly equal to
+!== strictly not equal to
+< less than
+<= less than equal to
+> greater than
+>= greater than equal to
+
+7. Understand what conditionals are.
+how a function makes decisions based on values and conditions 
+if, else, else if are the 3 ways to type a conditional
+
+8. Understand what nesting is.
+    embedding one structure within another
+
+9. Understand what truthy and falsy values are.
+truthy values are numbers, strings, boolean true, objects, null, and undefined. these will all be true
+falsy values are the number 0, an empty string, and the boolean false
