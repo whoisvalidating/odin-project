@@ -1,0 +1,43 @@
+How to define and invoke different kinds of functions.
+
+
+How to use the return value.
+
+
+What function scope is.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------test-------------------
+
+
+What are functions useful for?
+
+
+How do you invoke a function?
+
+
+What are anonymous functions?
+
+
+What is function scope?
+
+
+What are return values?
+
+
+What are arrow functions?
+

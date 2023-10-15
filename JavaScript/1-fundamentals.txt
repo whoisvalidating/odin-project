@@ -1,0 +1,130 @@
+How do you declare a variable?
+use the word let, and example would be
+
+let message;
+
+What are three different ways to declare a variable?
+var - is the older way to declare a variable, not recommended now
+let - this is the modern way to declare a variable - can be changed later
+const - this is a constant or unchanging value - often named with all caps if hard coded
+
+Which one should you use when?
+"let" when you want the value to change, "const" when the value will never change
+
+What are the rules for naming variables?
+only contain letters, digits, and the symbols $ and _
+first character must not be a digit
+is case sensitive
+can not use a reserved names   let, class, return, function
+
+What are operators, operands, and operations?
+operators - perform arithmetic on numbers (literals or variables)
+operands - are the numbers in a arithmetic operation
+operations - the act of using both of these
+
+What is concatenation and what happens when you add numbers and strings together?
+concatenation is the act of numbers and strings or strings and strings together.
+numbers are automatically converted into strings
+
+
+What are the different types of operators in JavaScript?
++ addition 
+- subtraction 
+* multiplication 
+** exponentiation 
+/ division 
+% modulus (Remainder)
+++ increment
+-- decrement
+
+
+What is the difference between == and ===?
+==   is equal
+=== is not equal
+What is the difference betw
+What are assignment operators?
++= addition assignment - adds the value on the right to the left and returns a new variable value
+-= subtraction assignment - left to right subtraction 
+*= multiplication assignment - left to right subtraction
+/= division assignment = left to right division
+
+What is the Unary Plus Operator?
++stringIWantToBeANumber
+
+
+
+
+
+
+-------------------test-------------------
+Name the three ways to declare a variable
+var, let, const
+
+Which of the three variable declarations should you avoid and why?
+var - it causes issues with modern code.
+
+What rules should you follow when naming variables?
+camalCase, be specific, only contain letters, digits, and $ _, cant use protected words such as let, class, return, function
+
+What happens when you add numbers and strings together?
+string concatenation
+
+How does the Modulo (%), or Remainder, operator work?
+give the remainder of a division
+
+Explain the difference between == and ===.
+equal to or not equal to
+
+When would you receive a NaN result?
+when a item is not a number
+
+How do you increment and decrement a number?
+++/--
+
+Explain the difference between prefixing and postfixing increment/decrement operators.
+if it happens instantly or is just saved as the new value
+
+What is operator precedence and how is it handled in JS?
+parenthesis
+exponentiation
+multiplication and division
+addition and subtraction
+
+How do you access developer tools and the console?
+right click, inspect
+
+How do you log information to the console?
+console.log()
+
+What does unary plus operator do to string representations of integers? eg. +”10”
+makes it into a number
+
+
+
+
+
+JavaScriptinfo assignments
+
+let admin;
+let name;
+
+name = 'john';
+admin = name;
+alert(admin);
+
+let homePlanet;
+let currentUserName;
+
+
+10
+-1
+1
+2
+6
+9px
+$45
+2
+
+  -9  5
+  -14
+  
