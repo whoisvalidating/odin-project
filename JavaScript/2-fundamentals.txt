@@ -21,7 +21,9 @@ Understand what a method is.
 method is a bit of functionality built into the language or psecific data type
 
 Name the three logical operators.
-
+|| or - if any value is true it returns true - when multiple are used it returns the first truthy value
+&& and - if the whole of the operands are true - when multiple are used it returns the first false value
+! not - accepts a single argument, converts it into boolean, and returns the inverse value
 
 Understand what the comparison operators are.
 > < greater than less than
@@ -31,7 +33,11 @@ Understand what the comparison operators are.
 
 
 Understand what conditionals are.
-
+are if, else, else if, and switch
+if - block of code to be executed if true
+else - block of code to be executed if the same condition is false
+else if - to specify a new condition to test if the condition is false
+switch - specify many alternative blocks of code to execute 
 
 Understand what nesting is.
 
